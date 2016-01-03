@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED9D1B711C395CA100FB192F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1B701C395CA100FB192F /* AppDelegate.swift */; };
+		ED9D1B741C395CA100FB192F /* JGO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1B721C395CA100FB192F /* JGO.xcdatamodeld */; };
+		ED9D1B761C395CA100FB192F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1B751C395CA100FB192F /* MasterViewController.swift */; };
+		ED9D1B781C395CA100FB192F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1B771C395CA100FB192F /* DetailViewController.swift */; };
+		ED9D1B7B1C395CA100FB192F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9D1B791C395CA100FB192F /* Main.storyboard */; };
+		ED9D1B7D1C395CA100FB192F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9D1B7C1C395CA100FB192F /* Assets.xcassets */; };
+		ED9D1B801C395CA100FB192F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9D1B7E1C395CA100FB192F /* LaunchScreen.storyboard */; };
+		ED9D1B8B1C395CA100FB192F /* JGOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1B8A1C395CA100FB192F /* JGOTests.swift */; };
+		ED9D1B961C395CA100FB192F /* JGOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1B951C395CA100FB192F /* JGOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED9D1B871C395CA100FB192F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9D1B651C395CA100FB192F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9D1B6C1C395CA100FB192F;
+			remoteInfo = JGO;
+		};
+		ED9D1B921C395CA100FB192F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9D1B651C395CA100FB192F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9D1B6C1C395CA100FB192F;
+			remoteInfo = JGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED9D1B6D1C395CA100FB192F /* JGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9D1B701C395CA100FB192F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED9D1B731C395CA100FB192F /* JGO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JGO.xcdatamodel; sourceTree = "<group>"; };
+		ED9D1B751C395CA100FB192F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ED9D1B771C395CA100FB192F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED9D1B7A1C395CA100FB192F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED9D1B7C1C395CA100FB192F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9D1B7F1C395CA100FB192F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED9D1B811C395CA100FB192F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9D1B861C395CA100FB192F /* JGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9D1B8A1C395CA100FB192F /* JGOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGOTests.swift; sourceTree = "<group>"; };
+		ED9D1B8C1C395CA100FB192F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9D1B911C395CA100FB192F /* JGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9D1B951C395CA100FB192F /* JGOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGOUITests.swift; sourceTree = "<group>"; };
+		ED9D1B971C395CA200FB192F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9D1B6A1C395CA100FB192F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9D1B831C395CA100FB192F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9D1B8E1C395CA100FB192F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED9D1B641C395CA100FB192F = {
+			isa = PBXGroup;
+			children = (
+				ED9D1B6F1C395CA100FB192F /* JGO */,
+				ED9D1B891C395CA100FB192F /* JGOTests */,
+				ED9D1B941C395CA100FB192F /* JGOUITests */,
+				ED9D1B6E1C395CA100FB192F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9D1B6E1C395CA100FB192F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D1B6D1C395CA100FB192F /* JGO.app */,
+				ED9D1B861C395CA100FB192F /* JGOTests.xctest */,
+				ED9D1B911C395CA100FB192F /* JGOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9D1B6F1C395CA100FB192F /* JGO */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D1B701C395CA100FB192F /* AppDelegate.swift */,
+				ED9D1B751C395CA100FB192F /* MasterViewController.swift */,
+				ED9D1B771C395CA100FB192F /* DetailViewController.swift */,
+				ED9D1B791C395CA100FB192F /* Main.storyboard */,
+				ED9D1B7C1C395CA100FB192F /* Assets.xcassets */,
+				ED9D1B7E1C395CA100FB192F /* LaunchScreen.storyboard */,
+				ED9D1B811C395CA100FB192F /* Info.plist */,
+				ED9D1B721C395CA100FB192F /* JGO.xcdatamodeld */,
+			);
+			path = JGO;
+			sourceTree = "<group>";
+		};
+		ED9D1B891C395CA100FB192F /* JGOTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D1B8A1C395CA100FB192F /* JGOTests.swift */,
+				ED9D1B8C1C395CA100FB192F /* Info.plist */,
+			);
+			path = JGOTests;
+			sourceTree = "<group>";
+		};
+		ED9D1B941C395CA100FB192F /* JGOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D1B951C395CA100FB192F /* JGOUITests.swift */,
+				ED9D1B971C395CA200FB192F /* Info.plist */,
+			);
+			path = JGOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9D1B6C1C395CA100FB192F /* JGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9D1B9A1C395CA200FB192F /* Build configuration list for PBXNativeTarget "JGO" */;
+			buildPhases = (
+				ED9D1B691C395CA100FB192F /* Sources */,
+				ED9D1B6A1C395CA100FB192F /* Frameworks */,
+				ED9D1B6B1C395CA100FB192F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGO;
+			productName = JGO;
+			productReference = ED9D1B6D1C395CA100FB192F /* JGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED9D1B851C395CA100FB192F /* JGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9D1B9D1C395CA200FB192F /* Build configuration list for PBXNativeTarget "JGOTests" */;
+			buildPhases = (
+				ED9D1B821C395CA100FB192F /* Sources */,
+				ED9D1B831C395CA100FB192F /* Frameworks */,
+				ED9D1B841C395CA100FB192F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED9D1B881C395CA100FB192F /* PBXTargetDependency */,
+			);
+			name = JGOTests;
+			productName = JGOTests;
+			productReference = ED9D1B861C395CA100FB192F /* JGOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED9D1B901C395CA100FB192F /* JGOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9D1BA01C395CA200FB192F /* Build configuration list for PBXNativeTarget "JGOUITests" */;
+			buildPhases = (
+				ED9D1B8D1C395CA100FB192F /* Sources */,
+				ED9D1B8E1C395CA100FB192F /* Frameworks */,
+				ED9D1B8F1C395CA100FB192F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED9D1B931C395CA100FB192F /* PBXTargetDependency */,
+			);
+			name = JGOUITests;
+			productName = JGOUITests;
+			productReference = ED9D1B911C395CA100FB192F /* JGOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED9D1B651C395CA100FB192F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = moonyounghwan;
+				TargetAttributes = {
+					ED9D1B6C1C395CA100FB192F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ED9D1B851C395CA100FB192F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED9D1B6C1C395CA100FB192F;
+					};
+					ED9D1B901C395CA100FB192F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED9D1B6C1C395CA100FB192F;
+					};
+				};
+			};
+			buildConfigurationList = ED9D1B681C395CA100FB192F /* Build configuration list for PBXProject "JGO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED9D1B641C395CA100FB192F;
+			productRefGroup = ED9D1B6E1C395CA100FB192F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9D1B6C1C395CA100FB192F /* JGO */,
+				ED9D1B851C395CA100FB192F /* JGOTests */,
+				ED9D1B901C395CA100FB192F /* JGOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED9D1B6B1C395CA100FB192F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9D1B801C395CA100FB192F /* LaunchScreen.storyboard in Resources */,
+				ED9D1B7D1C395CA100FB192F /* Assets.xcassets in Resources */,
+				ED9D1B7B1C395CA100FB192F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9D1B841C395CA100FB192F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9D1B8F1C395CA100FB192F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9D1B691C395CA100FB192F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9D1B741C395CA100FB192F /* JGO.xcdatamodeld in Sources */,
+				ED9D1B711C395CA100FB192F /* AppDelegate.swift in Sources */,
+				ED9D1B761C395CA100FB192F /* MasterViewController.swift in Sources */,
+				ED9D1B781C395CA100FB192F /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9D1B821C395CA100FB192F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9D1B8B1C395CA100FB192F /* JGOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9D1B8D1C395CA100FB192F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9D1B961C395CA100FB192F /* JGOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED9D1B881C395CA100FB192F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9D1B6C1C395CA100FB192F /* JGO */;
+			targetProxy = ED9D1B871C395CA100FB192F /* PBXContainerItemProxy */;
+		};
+		ED9D1B931C395CA100FB192F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9D1B6C1C395CA100FB192F /* JGO */;
+			targetProxy = ED9D1B921C395CA100FB192F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED9D1B791C395CA100FB192F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9D1B7A1C395CA100FB192F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED9D1B7E1C395CA100FB192F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9D1B7F1C395CA100FB192F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED9D1B981C395CA200FB192F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED9D1B991C395CA200FB192F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED9D1B9B1C395CA200FB192F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgoplay.com.JGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED9D1B9C1C395CA200FB192F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgoplay.com.JGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED9D1B9E1C395CA200FB192F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgoplay.com.JGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGO.app/JGO";
+			};
+			name = Debug;
+		};
+		ED9D1B9F1C395CA200FB192F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgoplay.com.JGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGO.app/JGO";
+			};
+			name = Release;
+		};
+		ED9D1BA11C395CA200FB192F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgoplay.com.JGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED9D1BA21C395CA200FB192F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgoplay.com.JGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9D1B681C395CA100FB192F /* Build configuration list for PBXProject "JGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9D1B981C395CA200FB192F /* Debug */,
+				ED9D1B991C395CA200FB192F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9D1B9A1C395CA200FB192F /* Build configuration list for PBXNativeTarget "JGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9D1B9B1C395CA200FB192F /* Debug */,
+				ED9D1B9C1C395CA200FB192F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED9D1B9D1C395CA200FB192F /* Build configuration list for PBXNativeTarget "JGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9D1B9E1C395CA200FB192F /* Debug */,
+				ED9D1B9F1C395CA200FB192F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED9D1BA01C395CA200FB192F /* Build configuration list for PBXNativeTarget "JGOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9D1BA11C395CA200FB192F /* Debug */,
+				ED9D1BA21C395CA200FB192F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED9D1B721C395CA100FB192F /* JGO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED9D1B731C395CA100FB192F /* JGO.xcdatamodel */,
+			);
+			currentVersion = ED9D1B731C395CA100FB192F /* JGO.xcdatamodel */;
+			path = JGO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED9D1B651C395CA100FB192F /* Project object */;
+}
